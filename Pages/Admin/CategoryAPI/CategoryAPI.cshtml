@@ -1,0 +1,26 @@
+﻿@page
+@model Test3.Pages.Admin.CategoryAPI.CategoryAPIModel
+@{
+}
+<h1>Mina API Kategorier</h1>
+
+@if (Model.Categories != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var category in Model.Categories)
+            {
+                <tr>
+                    <td>@category.Id</td>
+                    <td>@category.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

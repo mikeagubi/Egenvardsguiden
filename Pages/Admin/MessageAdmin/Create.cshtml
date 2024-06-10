@@ -1,0 +1,51 @@
+﻿@page
+@model Test3.Pages.Admin.MessageAdmin.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<br />
+
+<h4>Skapa Konversation</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Message.ReceiverId" class="control-label"></label>
+                <input asp-for="Message.ReceiverId" class="form-control" />
+                <span asp-validation-for="Message.ReceiverId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Message.Subject" class="control-label"></label>
+                <input asp-for="Message.Subject" class="form-control" />
+                <span asp-validation-for="Message.Subject" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Message.Content" class="control-label"></label>
+                <input asp-for="Message.Content" class="form-control" />
+                <span asp-validation-for="Message.Content" class="text-danger"></span>
+            </div>
+
+            <input type="hidden" asp-for="Message.Date" />
+            <input type="hidden" asp-for="Message.UserId" />
+
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Skicka" class="btn btn-outline-dark" />
+                <a class="btn btn-secondary" asp-page="Index">Tillbaka Till Listan</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

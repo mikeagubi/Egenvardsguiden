@@ -1,0 +1,73 @@
+﻿@page
+@model Test3.Pages.Admin.MessageAdmin.IndexModel
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    ViewData["Title"] = "Index";
+    var user = await UserManager.GetUserAsync(User);
+}
+
+<br />
+
+<p>
+    <a class="btn btn-outline-dark" asp-page="Create">Skapa konversation</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Message[0].UserId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Message[0].ReceiverId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Message[0].Subject)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Message[0].Content)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Message[0].Date)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Message) {
+
+            @if (user != null && user.UserName == item.ReceiverId)
+            {
+                <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReceiverId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Subject)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Content)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+
+            @if (User.Identity != null && User.Identity.Name == "mike.1985@live.se")
+            {
+                <a class="btn btn-outline-dark" asp-page="./Edit" asp-route-id="@item.Id">Edit</a> 
+            }
+                        
+            <a class="btn btn-outline-dark" asp-page="./Details" asp-route-id="@item.Id">Öppna</a> 
+            <a class="btn btn-outline-danger" asp-page="./Delete" asp-route-id="@item.Id">Ta Bort</a>
+            </td>
+        </tr>
+            }
+            
+}
+    </tbody>
+</table>

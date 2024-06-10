@@ -1,0 +1,83 @@
+﻿@page
+@model Test3.Pages.Admin.PostAdmin.IndexModel
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+    <h1>Alla Inlägg</h1>
+@if (User.Identity.IsAuthenticated)
+{
+      <p>
+        <a asp-page="Create" class="btn btn-primary">Skapa Nytt Inlägg</a>
+    </p>
+}
+
+  
+    <table class="table table-light table-striped table-hover">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Post[0].Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Post[0].Date)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Post[0].Text)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Post[0].SubCategory)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Post[0].UserId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Post[0].Image)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Post)
+            {
+                <tr>
+                <td>
+                    <a asp-page="/PostDetailPage/PostDetailPage" asp-route-id="@item.Id">@item.Title</a>
+                </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Date)
+                    </td>
+                    <td>
+                        @{
+                            string truncatedText = item.Text.Length > 50 ? item.Text.Substring(0, 50) + "..." : item.Text;
+                        }
+                        @truncatedText
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SubCategory.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UserId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Image)
+                    </td>
+                
+                @if (User.Identity.Name == "mike.1985@live.se")
+                {
+                    <td>
+                        <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-outline-primary" style="width: 100px">Redigera</a>
+                        <a asp-page="./Details" asp-route-id="@item.Id" class="btn btn-outline-primary" style="width: 100px">Detaljer</a>
+                        <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-outline-danger" style="width: 100px">Ta Bort</a>
+                    </td>
+                }
+
+                </tr>
+            }
+        </tbody>
+    </table>

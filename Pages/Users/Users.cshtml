@@ -1,0 +1,39 @@
+﻿@page
+@model Test3.Pages.Users.UsersModel
+@{
+    ViewData["Title"] = "Alla Users";
+}
+
+@if (User.Identity.Name == "mike.1985@live.se")
+{
+    <br />
+    <h1>Alla Användare</h1>
+    <br /><br />
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Användare Email</th>
+                <th>Användar ID</th>
+                <th>Ta Bort Användare</th>
+            </tr>
+        </thead>
+        <tbody>
+
+
+    @if(Model.Users != null)
+    {
+        @foreach(var user in Model.Users)
+        {
+            <tr>
+                <td>@user.Email</td>
+                <td>@user.Id</td>
+                <td>
+                    <a asp-route-id="@user.Id" class="btn btn-danger">Ta bort Användare</a>
+                </td>
+            </tr>
+        }
+    }
+       
+        </tbody>
+    </table>
+}

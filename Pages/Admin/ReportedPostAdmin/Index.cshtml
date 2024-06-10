@@ -1,0 +1,46 @@
+﻿@page
+@model Test3.Pages.Admin.ReportedPostAdmin.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@if(User.Identity != null && User.Identity.Name == "mike.1985@live.se")
+{
+
+    <h1>Rapporterade Inlägg</h1>
+
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.ReportedPost[0].Post)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ReportedPost[0].ReportedDate)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+    @foreach (var item in Model.ReportedPost) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Post.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReportedDate)
+                </td>
+                <td>
+
+                    <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-dark">Ignorera Rapport</a>
+                        <a asp-page="/PostDetailPage/postdetailpage" asp-route-id="@item.PostId" class="btn btn-outline-secondary">Visa Inlägget</a>
+                </td>
+            </tr>
+    }
+        </tbody>
+    </table>
+}
+<br />
+<h3>Inlägg Rapporterad</h3>

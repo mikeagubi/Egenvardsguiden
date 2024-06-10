@@ -1,0 +1,36 @@
+﻿@page
+@model Test3.Pages.AllPosts.AllPostsModel
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@{
+    ViewData["Title"] = "Alla Inlägg";
+    var user = await UserManager.GetUserAsync(User);
+}
+
+<div class="row col-md-12 mx-auto">
+    @if (Model.SubCategories != null)
+    {
+        @if (Model.Posts != null)
+        {
+            @foreach (var post in Model.Posts)
+            {
+                <div class="card m-1" style="width: 400px; height: 800px;">
+                    <h5 class="card-header text-center bg-success">@post.SubCategory.Name</h5>
+                    <img class="card-img-top" style="width: 100%; height: 300px; object-fit: cover;" src="~/userImages/@post.Image" />
+                    <div class="card-body">
+                        <h5 class="card-title fw-bolder text-center mt-2">@post.Title</h5>
+                        <p class="card-text text-center mt-3">@post.Text</p>
+                    </div>
+                    @if(user != null && user.UserName == post.UserId)
+                    {
+                        <a asp-all-route-deleteId="@post.Id" class="btn btn-primary">Ta bort inlägget</a>
+                    }
+                    <div class="card-footer alert-secondary mt-auto text-center">
+                        <p><strong>Skapad av:</strong> @post.UserId</p>
+                        <p>@post.Date</p>
+                    </div>
+                </div>
+            }
+        }
+    }
+</div>

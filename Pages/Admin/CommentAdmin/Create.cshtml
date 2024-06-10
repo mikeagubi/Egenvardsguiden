@@ -1,0 +1,52 @@
+﻿@page
+@inject SignInManager<IdentityUser> SignInManager
+@model Test3.Pages.Admin.CommentAdmin.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Kommentar</h1>
+
+<h4 class="btn btn-primary">Lämna Ett Kommentar</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Comment.Title" class="control-label"></label>
+                <input asp-for="Comment.Title" class="form-control" />
+                <span asp-validation-for="Comment.Title" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Comment.Text" class="control-label"></label>
+                <textarea asp-for="Comment.Text" rows="5" cols="50" class="form-control"></textarea>
+                <span asp-validation-for="Comment.Text" class="text-danger"></span>
+            </div>
+
+
+
+            <div class="form-group">
+                <label asp-for="Comment.Image" class="control-label"></label>
+                <input type="file" name="UploadedImage" class="form-control" />
+            </div>
+
+            <br />
+            <input type="hidden" asp-for="Comment.Date" />
+            <input type="hidden" asp-for="Comment.UserId" />
+            <input type="hidden" asp-for="Comment.PostId" />
+            <div class="form-group">
+                <input type="submit" value="Skapa Kommentar" class="btn btn-success" />
+                <a asp-page="Index" class="btn btn-secondary">Tillbaka Till Listan</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

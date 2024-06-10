@@ -1,0 +1,51 @@
+﻿@page
+@model IndexModel
+@inject SignInManager<IdentityUser> SignInManager
+@{
+    ViewData["Title"] = "Home page";
+    
+}
+
+
+
+<!-- Här ska en karusell börja -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    </div>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <a href="https://www.apotekhjartat.se/kampanjer/">
+                <img src="~/css/hjärtat.jpg" alt="Apotek Hjärtat" class="d-block w-100" style="height: 350px; object-fit: contain; background-color: #f8f9fa;">
+            </a>
+        </div>
+        <div class="carousel-item">
+            <a href="https://www.1177.se/">
+                <img src="~/css/1177.jpg" alt="1177" class="d-block w-100" style="height: 350px; object-fit: contain; contain; background-color: #f8f9fa;">
+            </a>
+        </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+
+<!--Här ska jag ha en pratare-->
+
+<div class="bg-light rounded-3">
+    <div class="text-center container py-2">
+        <h1 class="display-5 fw-bold">Välkommen till Egenvårdsguiden</h1>
+        <p class="col-md-6 mx-auto fs-4">Din guide till rätt receptfri medicin. Här kan du dela dina erfarenheter och få råd om hur du bäst hanterar olika sjukdomar med receptfria läkemedel.</p>
+        <p class="col-md-6 mx-auto fs-4 text-black">Ställ dina frågor, dela dina erfarenheter, och hjälp andra att hitta rätt behandling!</p>
+        <a class="btn btn-success btn-lg text-white" href="Admin/PostAdmin/index" role="button">Utforska forumet</a>
+    </div>
+</div>
+
+<!--Antingen text kommer här eller jag skippar-->

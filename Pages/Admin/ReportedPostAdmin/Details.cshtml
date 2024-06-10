@@ -1,0 +1,33 @@
+﻿@page
+@model Test3.Pages.Admin.ReportedPostAdmin.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+@if(User.Identity != null && User.Identity.Name == "mike.1985@live.se")
+{
+    <h1>Details</h1>
+
+    <div>
+        <h4>ReportedPost</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.ReportedPost.Post)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.ReportedPost.Post.Id)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.ReportedPost.ReportedDate)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.ReportedPost.ReportedDate)
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <a asp-page="./Edit" asp-route-id="@Model.ReportedPost.Id">Edit</a> |
+        <a asp-page="./Index">Back to List</a>
+    </div>
+}

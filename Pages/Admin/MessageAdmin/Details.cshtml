@@ -1,0 +1,49 @@
+﻿@page
+@model Test3.Pages.Admin.MessageAdmin.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+
+<div>
+    <h4>Konversation</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Message.UserId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Message.UserId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Message.ReceiverId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Message.ReceiverId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Message.Subject)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Message.Subject)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Message.Content)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Message.Content)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Message.Date)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Message.Date)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-outline-danger" asp-page="./Delete" asp-route-id="@Model.Message.Id">Ta Bort</a> 
+    <a class="btn btn-secondary" asp-page="./Index">Tillbaka Till Listan</a>
+</div>

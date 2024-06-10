@@ -1,0 +1,90 @@
+﻿@page "{id:int}"
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@model Test3.Pages.PostDetailPage.PostDetailPageModel
+@{
+    ViewData["Title"] = "PostDetaljer";
+    var user = await UserManager.GetUserAsync(User);
+}
+<br />
+
+
+<h1>Inläggsdetaljer</h1>
+
+
+@if (Model.Post != null)
+{
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <div class="card border-5 border-secondary">
+                <img class="card-img-top mx-auto d-block" src="~/userImages/@Model.Post.Image" />
+                <h5 class="card-header text-center bg-success">Ämne: @Model.Post.SubCategory.Name</h5>
+                <h4 class="card-body fw-bold bg-transparent text-center">@Model.Post.Title</h4>
+                <p class="card-body text-center">@Model.Post.Text</p>
+
+                <div class="card-img-bottom d-flex justify-content-between">
+                    <div>
+                        <p class="card-body"><strong>Postad av:</strong> @Model.Post.UserId</p>
+                    </div>
+                    <div>
+                        <p class="card-body"><strong>Datum:</strong> @Model.Post.Date</p>
+                    </div>
+                </div>
+
+                <div class="card-footer text-center bg-transparent">
+                    @if (user != null && user.UserName == Model.Post.UserId)
+                    {
+                        <a asp-page="/Admin/PostAdmin/Edit" asp-route-id="@Model.Post.Id" class="btn btn-outline-primary">Redigera</a>
+                        <a asp-page="/Admin/PostAdmin/Delete" asp-route-id="@Model.Post.Id" class="btn btn-outline-danger">Radera</a>
+                    }
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <a asp-page="/Admin/CommentAdmin/Create" asp-route-postId="@Model.Post.Id" class="btn btn-outline-dark">Kommentera</a>
+                        <a asp-page="/Admin/ReportedPostAdmin/Create" asp-route-postId="@Model.Post.Id" class="btn btn-outline-dark">Raportera</a>
+                        
+                    }
+                    <a asp-page="/Admin/PostAdmin/Index" class="btn btn-secondary">Tillbaka Till Listan</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br />
+    <h3>Kommentarer</h3>
+    <br />
+    @if (Model.Comments != null)
+    {
+        @foreach (var comment in Model.Comments)
+        {
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <div class="card border-1 border-secondary mb-3">
+                        <div class="card-header"><strong>Rubrik: @comment.Title</strong></div>
+                        <div class="card-body">
+                            <p class="card-text">@comment.Text</p>
+
+                        </div>
+                        <img class="card-img-top" src="~/userImages/@comment.Image" style="width: 50%"; />
+                        <div class="card-footer text-muted">
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <p><strong>Postad av:</strong> @comment.UserId</p>
+                                </div>
+                                <div>
+                                    <p><strong>Datum:</strong> @comment.Date</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <p class="text-center">Inga kommentarer att visa</p>
+    }
+}
+<br />
+<br />
+<br />

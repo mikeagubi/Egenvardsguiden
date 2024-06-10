@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+@inject SignInManager<IdentityUser> SignInManager
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Test3</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Test3.styles.css" asp-append-version="true" />
+    <style>
+
+        .navbar-dark .navbar-nav .nav-link {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-success border-bottom box-shadow mb-0">
+            <div class="container">
+                <a class="navbar-brand" asp-page="/Index"><img src="~/css/rätta bilden.png" width="100px" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index">Hem</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/AboutUsPage">Om oss</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/allposts/Latestposts/">Senaste Inläggen</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/admin/postadmin/">Alla Inlägg</a>
+                        </li>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" href="/admin/postadmin/create/">Skapa Inlägg</a>
+                            </li>
+                        }
+                       
+
+                        <li class="nav-item dropdown">
+                            @if(User.Identity != null && User.Identity.Name == "mike.1985@live.se")
+                            {
+                                <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown">Admin Meny</a>
+                                <ul class="dropdown-menu bg-white text-black">
+                                    <li><a class="dropdown-item" href="/admin/adminpage/adminpage">Innehållshantering</a></li>
+                                    <li><a class="dropdown-item" href="/users/users">Användarhantering</a></li>
+                                    <li><a class="dropdown-item" href="/admin/reportedpostadmin/index">Rapporterade Inlägg</a></li>
+                                </ul>
+                            }
+                        </li>
+                    </ul> 
+
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+        @if (SignInManager.IsSignedIn(User))
+        {
+            <!-- Sido-knappen ska vara här -->
+            <div class="offcanvas offcanvas-start" id="demo">
+                <div class="offcanvas-header bg-success ">
+                    <h1 class="offcanvas-title text-white ">Mina Konversationer</h1>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body bg-light border border-5 border-success">
+                    <a class="btn btn-outline-success" asp-page="/admin/messageadmin/create">Skapa nytt</a>
+                    <br />
+                    <a class="btn btn-outline-success" asp-page="/admin/messageadmin/index">Mina konversationer</a>
+                   
+                </div>
+            </div>
+
+            <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">Konversationer</button>
+            <p class="alert-success text-center text-success mb-0 col-md-12 mx-auto">Välkommen tillbaka, @User.Identity.Name! Du är nu inloggad.</p>
+        }
+        else
+        {
+            <p class="alert-danger text-center text-danger mb-0 col-md-12 mx-auto">Du är utloggad!</p>
+        }
+        <div class="text-center ">
+            <h1 class="display-5 fw-bold bg-secondary mt-0 mb-1 col-md-12 mx-auto rounded-bottom">Egenvårdsguiden</h1>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-white bg-success">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    &copy; 2024 - Egenvårdsguiden - <a class="text-white" asp-area="" asp-page="/Privacy">Privacy</a>
+                </div>
+
+                <div class="col-md-6 text-md-end">
+                    <a href="/FAQpage" class="text-white">FAQ</a>
+                    <a href="/AboutUsPage" class="text-white">Om Oss</a>
+                    <a href="#" class="text-white">...</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

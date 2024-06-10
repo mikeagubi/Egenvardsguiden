@@ -1,0 +1,231 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Test3
+build_property.RootNamespace = Test3
+build_property.ProjectDir = C:\Users\Mike\Desktop\One Drive Map\OneDrive\System23\Web\Test3\Test3\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Mike\Desktop\One Drive Map\OneDrive\System23\Web\Test3\Test3
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/AboutUsPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXRVc1BhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/AdminPage/AdminPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRtaW5QYWdlXEFkbWluUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/CategoryAdmin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcnlBZG1pblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/CategoryAdmin/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcnlBZG1pblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/CategoryAdmin/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcnlBZG1pblxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/CategoryAdmin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcnlBZG1pblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/CategoryAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcnlBZG1pblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/CategoryAPI/CategoryAPI.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcnlBUElcQ2F0ZWdvcnlBUEkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/CategoryAPI/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcnlBUElcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/CommentAdmin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ29tbWVudEFkbWluXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/CommentAdmin/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ29tbWVudEFkbWluXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/CommentAdmin/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ29tbWVudEFkbWluXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/CommentAdmin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ29tbWVudEFkbWluXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/CommentAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ29tbWVudEFkbWluXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/MessageAdmin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWVzc2FnZUFkbWluXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/MessageAdmin/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWVzc2FnZUFkbWluXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/MessageAdmin/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWVzc2FnZUFkbWluXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/MessageAdmin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWVzc2FnZUFkbWluXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/MessageAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWVzc2FnZUFkbWluXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/PostAdmin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUG9zdEFkbWluXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/PostAdmin/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUG9zdEFkbWluXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/PostAdmin/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUG9zdEFkbWluXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/PostAdmin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUG9zdEFkbWluXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/PostAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUG9zdEFkbWluXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/ReportedPostAdmin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUmVwb3J0ZWRQb3N0QWRtaW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/ReportedPostAdmin/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUmVwb3J0ZWRQb3N0QWRtaW5cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/ReportedPostAdmin/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUmVwb3J0ZWRQb3N0QWRtaW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/ReportedPostAdmin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUmVwb3J0ZWRQb3N0QWRtaW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/ReportedPostAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUmVwb3J0ZWRQb3N0QWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/SubCategoryAdmin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU3ViQ2F0ZWdvcnlBZG1pblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/SubCategoryAdmin/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU3ViQ2F0ZWdvcnlBZG1pblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/SubCategoryAdmin/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU3ViQ2F0ZWdvcnlBZG1pblxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/SubCategoryAdmin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU3ViQ2F0ZWdvcnlBZG1pblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Admin/SubCategoryAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU3ViQ2F0ZWdvcnlBZG1pblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/AllPosts/AllPosts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxsUG9zdHNcQWxsUG9zdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/AllPosts/LatestPosts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxsUG9zdHNcTGF0ZXN0UG9zdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/AllPosts/ReportedPosts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxsUG9zdHNcUmVwb3J0ZWRQb3N0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/FAQPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRkFRUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/PostDetailPage/NewPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zdERldGFpbFBhZ2VcTmV3UGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/PostDetailPage/PostDetailPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zdERldGFpbFBhZ2VcUG9zdERldGFpbFBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Shared/AboutPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEFib3V0UGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Users/Users.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcVXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mike/Desktop/One Drive Map/OneDrive/System23/Web/Test3/Test3/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-oos3n8a436

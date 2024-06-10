@@ -1,0 +1,40 @@
+﻿@page
+@model Test3.Pages.Admin.CategoryAdmin.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+@if (User.Identity.Name == "mike.1985@live.se")
+{
+    
+
+
+<h1>Kategori</h1>
+
+<h4>Lägg till en ny kategoti</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Category.Name" class="control-label"></label>
+                <input asp-for="Category.Name" class="form-control" />
+                <span asp-validation-for="Category.Name" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Spara" class="btn btn-success" />
+                 <a asp-page="Index" class="btn btn-secondary">Tillbaka till listan</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+}

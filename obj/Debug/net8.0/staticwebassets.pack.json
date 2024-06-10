@@ -1,0 +1,545 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Test3.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Test3.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\allaBilder\\5555thumbnail_IMG_0300 (1).jpg",
+      "PackagePath": "staticwebassets\\allaBilder\\5555thumbnail_IMG_0300 (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\allaBilder\\8123thumbnail_IMG_0299.jpg",
+      "PackagePath": "staticwebassets\\allaBilder\\8123thumbnail_IMG_0299.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\css\\1177.jpg",
+      "PackagePath": "staticwebassets\\css\\1177.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\css\\hjärtat.jpg",
+      "PackagePath": "staticwebassets\\css\\hjärtat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\css\\rätta bilden.png",
+      "PackagePath": "staticwebassets\\css\\rätta bilden.png"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\10816ryggont.jpg",
+      "PackagePath": "staticwebassets\\userImages\\10816ryggont.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\12240duscholja.jpg",
+      "PackagePath": "staticwebassets\\userImages\\12240duscholja.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\12297harlyquinn.jpg",
+      "PackagePath": "staticwebassets\\userImages\\12297harlyquinn.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\15741fotsvamp.jpg",
+      "PackagePath": "staticwebassets\\userImages\\15741fotsvamp.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\17812eksem.jpg",
+      "PackagePath": "staticwebassets\\userImages\\17812eksem.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\19058munsår.jpg",
+      "PackagePath": "staticwebassets\\userImages\\19058munsår.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\19719joker.jpg",
+      "PackagePath": "staticwebassets\\userImages\\19719joker.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\2408hårda händer.jpg",
+      "PackagePath": "staticwebassets\\userImages\\2408hårda händer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\24403mjäll.jpg",
+      "PackagePath": "staticwebassets\\userImages\\24403mjäll.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\24677blöjor till äldre.jpg",
+      "PackagePath": "staticwebassets\\userImages\\24677blöjor till äldre.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\28461solbränna.png",
+      "PackagePath": "staticwebassets\\userImages\\28461solbränna.png"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\28596joker.jpg",
+      "PackagePath": "staticwebassets\\userImages\\28596joker.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\29457batmanmovie.jpg",
+      "PackagePath": "staticwebassets\\userImages\\29457batmanmovie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\29751harlyquinn.jpg",
+      "PackagePath": "staticwebassets\\userImages\\29751harlyquinn.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\39682tvätt kräm.jpg",
+      "PackagePath": "staticwebassets\\userImages\\39682tvätt kräm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\40236joker.jpg",
+      "PackagePath": "staticwebassets\\userImages\\40236joker.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\40933sår.jpg",
+      "PackagePath": "staticwebassets\\userImages\\40933sår.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\41558sårtvätt.jpg",
+      "PackagePath": "staticwebassets\\userImages\\41558sårtvätt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\49535bandage.jpg",
+      "PackagePath": "staticwebassets\\userImages\\49535bandage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\53116harlyquinn.jpg",
+      "PackagePath": "staticwebassets\\userImages\\53116harlyquinn.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\54527sår.jpg",
+      "PackagePath": "staticwebassets\\userImages\\54527sår.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\54536huvudvärk.jpg",
+      "PackagePath": "staticwebassets\\userImages\\54536huvudvärk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\5839acne komment 2.jpg",
+      "PackagePath": "staticwebassets\\userImages\\5839acne komment 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\59749Batman.jpg",
+      "PackagePath": "staticwebassets\\userImages\\59749Batman.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\62070batmanmovie.jpg",
+      "PackagePath": "staticwebassets\\userImages\\62070batmanmovie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\62810joker.jpg",
+      "PackagePath": "staticwebassets\\userImages\\62810joker.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\65702mjäll.jpg",
+      "PackagePath": "staticwebassets\\userImages\\65702mjäll.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\67958huvudvärk.jpg",
+      "PackagePath": "staticwebassets\\userImages\\67958huvudvärk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\6869acne komment.jpg",
+      "PackagePath": "staticwebassets\\userImages\\6869acne komment.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\69900duscholja.jpg",
+      "PackagePath": "staticwebassets\\userImages\\69900duscholja.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\70527hårda händer.jpg",
+      "PackagePath": "staticwebassets\\userImages\\70527hårda händer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\70842duscholja.jpg",
+      "PackagePath": "staticwebassets\\userImages\\70842duscholja.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\72558thumbnail_IMG_0303.jpg",
+      "PackagePath": "staticwebassets\\userImages\\72558thumbnail_IMG_0303.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\75344solbränna 2.jpg",
+      "PackagePath": "staticwebassets\\userImages\\75344solbränna 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\75767bandage komment 1.png",
+      "PackagePath": "staticwebassets\\userImages\\75767bandage komment 1.png"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\76294hårda händer.jpg",
+      "PackagePath": "staticwebassets\\userImages\\76294hårda händer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\76477mjäll.jpg",
+      "PackagePath": "staticwebassets\\userImages\\76477mjäll.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\80435new.jpg",
+      "PackagePath": "staticwebassets\\userImages\\80435new.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\81084barneksem komment.jpg",
+      "PackagePath": "staticwebassets\\userImages\\81084barneksem komment.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\81418batmanmovie.jpg",
+      "PackagePath": "staticwebassets\\userImages\\81418batmanmovie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\81692duscholja.jpg",
+      "PackagePath": "staticwebassets\\userImages\\81692duscholja.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\82412hosta.JPG",
+      "PackagePath": "staticwebassets\\userImages\\82412hosta.JPG"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\82948mjäll.jpg",
+      "PackagePath": "staticwebassets\\userImages\\82948mjäll.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\83627nästäppa.jpg",
+      "PackagePath": "staticwebassets\\userImages\\83627nästäppa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\83990joker.jpg",
+      "PackagePath": "staticwebassets\\userImages\\83990joker.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\84273huvudvärk.jpg",
+      "PackagePath": "staticwebassets\\userImages\\84273huvudvärk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\84995nicorett tugummi.jpg",
+      "PackagePath": "staticwebassets\\userImages\\84995nicorett tugummi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\86121sår.jpg",
+      "PackagePath": "staticwebassets\\userImages\\86121sår.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\88712mjäll.jpg",
+      "PackagePath": "staticwebassets\\userImages\\88712mjäll.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\8948Batman.jpg",
+      "PackagePath": "staticwebassets\\userImages\\8948Batman.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\89819ögoninflammation.JPG",
+      "PackagePath": "staticwebassets\\userImages\\89819ögoninflammation.JPG"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\90123hårda händer.jpg",
+      "PackagePath": "staticwebassets\\userImages\\90123hårda händer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\91405joker.jpg",
+      "PackagePath": "staticwebassets\\userImages\\91405joker.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\91911huvudvärk.jpg",
+      "PackagePath": "staticwebassets\\userImages\\91911huvudvärk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\92371löss i håret.jpg",
+      "PackagePath": "staticwebassets\\userImages\\92371löss i håret.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\92672mindoctor.jpg",
+      "PackagePath": "staticwebassets\\userImages\\92672mindoctor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\93108munsår.jpg",
+      "PackagePath": "staticwebassets\\userImages\\93108munsår.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\93300eksem komment 1.jpg",
+      "PackagePath": "staticwebassets\\userImages\\93300eksem komment 1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\94355munsår.jpg",
+      "PackagePath": "staticwebassets\\userImages\\94355munsår.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\95221vecteezy_cartoon-superhero-boy-flying-on-white-background_.jpg",
+      "PackagePath": "staticwebassets\\userImages\\95221vecteezy_cartoon-superhero-boy-flying-on-white-background_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\95366barneksem koment2.jpg",
+      "PackagePath": "staticwebassets\\userImages\\95366barneksem koment2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\96167acne.jpg",
+      "PackagePath": "staticwebassets\\userImages\\96167acne.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\9652barneksem-870x489.jpg",
+      "PackagePath": "staticwebassets\\userImages\\9652barneksem-870x489.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\98044joker.jpg",
+      "PackagePath": "staticwebassets\\userImages\\98044joker.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mike\\Desktop\\One Drive Map\\OneDrive\\System23\\Web\\Test3\\Test3\\wwwroot\\userImages\\98450fotsvamp komment.jpg",
+      "PackagePath": "staticwebassets\\userImages\\98450fotsvamp komment.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Test3.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Test3.props",
+      "PackagePath": "build\\Test3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Test3.props",
+      "PackagePath": "buildMultiTargeting\\Test3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Test3.props",
+      "PackagePath": "buildTransitive\\Test3.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,40 @@
+﻿@page
+@model Test3.Pages.Admin.AdminPage.AdminPageModel
+@inject SignInManager<IdentityUser> SignInManager
+@{
+    ViewData["Title"] = "Admin Page";
+}
+@if (User.Identity.Name == "mike.1985@live.se")
+{
+    
+
+    <br />
+
+    <br />
+    <div class="card border">
+        <div class="text-center">
+            <div class="card-header text-secondary display-5 fw-bold">Hantering av Innehållet</div>
+            <br />
+            <h5 class="text-secondary"></h5>
+            <br />
+            <div class="btn-group btn-group-justified">
+                <p>
+                    <a href="/admin/categoryadmin/index" class="btn btn-outline-dark">Lägg till/Ändra eller ta bort en Kategory</a>
+                </p>
+                <p>
+                    <a href="/admin/subcategoryadmin/index" class="btn btn-outline-dark">Lägg till/Ändra eller ta bort en Under-Kategory</a>
+                </p>
+                <p>
+                    <a href="/admin/postadmin/index" class="btn btn-outline-dark">Lägg till/Ändra eller ta bort en Post</a>
+                </p>
+                
+            </div>
+            <br />
+            <p>
+                <a href="/admin/categoryapi/categoryapi" class="btn  btn-outline-success btn-lg border-5 border-dark active ">API Kategorier</a>
+            </p>
+        </div>
+    </div>
+}
+
+
